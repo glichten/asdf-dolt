@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run ShellCheck
-        run: shellcheck bin/* lib/*.bash
+        run: shellcheck -x bin/* lib/*.bash
